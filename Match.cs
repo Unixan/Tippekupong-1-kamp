@@ -16,8 +16,8 @@
 
         public bool RightBet()
         {
-            var result = _homegoals == _awaygoals ? "U" : _homegoals > _awaygoals ? "H" : "B";
-            return _bet.Contains(result);
+           var result = _homegoals == _awaygoals ? "U" : _homegoals > _awaygoals ? "H" : "B";
+           return _bet.Contains(result);
         }
         public void Play()
         {
