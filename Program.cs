@@ -10,9 +10,6 @@
             match.Play();
             var result = match.RightBet() ? "vant" : "tapte";
             Console.WriteLine($"Stillingen ble {match.Score()}.\n\nDu {result}");
-
-
-
         }
     }
 }
