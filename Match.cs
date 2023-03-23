@@ -23,9 +23,8 @@
         {
             for (int i = 0; i < 6; i++)
             {
-                var rnd = new Random();
-                var teamScore = rnd.Next(9);
-                if (teamScore > 4) _homegoals++;
+                var rnd = new Random().Next(9);
+                if (rnd > 5) _homegoals++;
                 else _awaygoals++;
             }
 
